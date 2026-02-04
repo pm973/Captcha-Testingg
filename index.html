@@ -2,7 +2,7 @@
 <html>
 <head>
   <title>reCAPTCHA Test</title>
-  <script src="https://www.google.com/recaptcha/api.js?render=YOUR_SITE_KEY"></script>
+  <script src="https://www.google.com/recaptcha/api.js?render=6LezUV8sAAAAAOKiMxnj6QLzwvhGi0F75N1mxWz3"></script>
 </head>
 <body style="font-family: Arial; padding: 40px;">
   <h2>Google reCAPTCHA v3 Test</h2>
@@ -13,7 +13,7 @@
   <script>
     function runCaptcha() {
       grecaptcha.ready(function () {
-        grecaptcha.execute('YOUR_SITE_KEY', {action: 'test'}).then(function (token) {
+        grecaptcha.execute('6LezUV8sAAAAAOKiMxnj6QLzwvhGi0F75N1mxWz3', {action: 'test'}).then(function (token) {
           alert("Captcha token generated successfully!");
           console.log(token);
         });
